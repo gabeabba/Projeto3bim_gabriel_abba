@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: rgb(7, 226, 124);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+
+        nav {
+            float: left;
+            width: 18%;
+            height: 1000px;
+            background: #999;
+            padding: 20px;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+        }
+
+        div {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            height: 300px;
+
+        }
+
+
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+        footer {
+            background-color: #888;
+            padding: 1%;
+            color: white;
+            float: left;
+            width: 100%;
+        }
+
+
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Meus filmes favoritos!</h2>
+    </header>
+
+    <div>
+        <h4>As Vantagens de ser Invisivel</h4>
+        <img src="img/As-Vantagens-de-ser-Invisivel.jpg" width="300" height="300">
+        <p>
+            Charlie (Logan Lerman) é um jovem que tem dificuldades para interagir em sua nova escola. Com os nervos à flor da pele, 
+            ele se sente deslocado no ambiente. Seu professor de literatura, no entanto, acredita nele e o vê como um gênio. Mas 
+            Charlie continua a pensar pouco de si... até o dia em que dois amigos, Patrick (Ezra Miller) e Sam (Emma Watson), passam a andar com ele.
+        </p>
+        <a href="https://www.youtube.com/watch?v=TsIYJDAscLE" target="_blank">Trailer</a>
+        <hr>
+        <h4>Scott Pilgrim Contra o Mundo</h4>
+        <img src="img/scott-pilgrim.jpg" width="300" height="300">
+        <p>
+            Scott Pilgrim (Michael Cera) tem 23 anos, integra uma banda de colégio, vive trocando de emprego e tem um namoro firme. 
+            Sua vida está maravilhosa, até conhecer Ramona V. Flowers (Mary Elizabeth Winestead). Ele logo se apaixona perdidamente 
+            por ela, só que não será fácil conquistar seu amor. Para tanto ele precisa enfrentar os sete ex-namorados dela, que estão 
+            dispostos a tudo para impedir sua felicidade com outra pessoa.
+        </p>
+        <a href="https://www.youtube.com/watch?v=tT0QZcCuvAE" target="_blank">Trailer</a>
+        <hr>
+        <h4>Adoraveis Mulheres</h4>
+        <img src="img/adoraveis-mulheres.jpg" width="300" height="300">
+        <p>As irmãs Jo (Saoirse Ronan), Beth (Eliza Scanlen), Meg (Emma Watson) e Amy (Florence Pugh) amadurecem na virada da adolescência 
+            para a vida adulta enquanto os Estados Unidos atravessam a Guerra Civil. Com personalidades completamente diferentes, elas 
+            enfrentam os desafios de crescer unidas pelo amor que nutrem umas pelas outras.</p>
+        <a href="https://www.youtube.com/watch?v=7nc1GE_hnLs" target="_blank">Trailer</a>
+        <hr>
+        <h4>HALLOWEEN - A NOITE DO TERROR</h4>
+        <img src="img/HALLOWEEN.jpg" width="300" height="300">
+        <p>Michael Myers (Tony Moran) é um psicopata que vive em uma instituição há 15 anos, desde quando matou sua própria irmã. Porém, 
+            ele consegue fugir de seu cativeiro e retorna à sua cidade natal para continuar seus crimes na localidade que, aterrorizada, 
+            ainda se lembra dele.</p>
+        <a href="https://www.youtube.com/watch?v=fQNtP45pHMI" target="_blank">Trailer</a>    
+        <hr>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: rgb(111, 172, 138);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: rgb(78, 78, 78);
+        }
+
+
+        nav {
+            float: left;
+            width: 25%;
+            height: 1000px;
+            background: rgb(226, 69, 69);
+            padding: 20px;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: right;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+        }
+
+        div {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            height: 300px;
+          
+        }
+
+        
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+        footer {
+            background-color: #888;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            float: left;
+            width: 100%;
+        }
+
+
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Município de Toledo</h2>
+    </header>
+    <nav>
+        <ul>
+            <h4>Cidade vista de cima</h4>
+            <img src="img/vista.jpg" width="250" height="200">
+            <h4>Bandeira</h4>
+            <img src="img/Bandeira_Toledo_PR.jpg" width="150" height="100">
+            <h4>Localização da cidade</h4>
+            <img src="img/300px-Parana_Municip_Toledo.svg.png" width="250" height="200">
+        </ul>
+    </nav>
+
+    <div>
+
+        <h4>Apelido(s)</h4>
+        <p>A capital do Agronegócio do Paraná</p>
+        <p>"Toledo Cidade-Labor"</p>
+
+
+        <h4>Gentílico</h4>
+        <p>Toledano</p>
+
+
+        <h4>País:</h4>
+        <p>Brasil</p>
+        <h4>Estado:</h4>
+        <p>Paraná</p>
+        <h4>Distância até a capital:</h4>
+        <p> 540km</p>
+
+
+        <h4>História</h4>
+        <p>Fundada em 14 de Dezembro de 1951(69 anos)</p>
+        <p>Toledo está situado numa região de colonização recente e que recebeu seus primeiros moradores em 27 de março de 1946, quando colonos oriundos do atual município gaúcho de São Marcos, então distrito de Caxias do Sul, chegaram à área atual, na época pertencente ao Território Federal do Iguaçu. </p>
+        <p>Em 1951 foi emancipado de Foz do Iguaçu pela Lei nº 790, sancionada pelo governador do Paraná, Bento Munhoz da Rocha Neto.</p>
+
+        <h4>Administração</h4>
+        <p>Luiz Adalberto Beto Lunitti Pagnussatt (MDB,2021 - 2024)</p>
+
+        <h4>Vereadores: 19</h4>
+
+        <h4>Fuso Horário: Hora de Brasilia(UTC-3)</h4>
+    </div>
+
+    <footer>
+      
+    </footer>
+
+</body>
+
+</html>
